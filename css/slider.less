@@ -1,0 +1,53 @@
+.slider{
+    width: 1190px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+    .slider-body{
+        position: absolute;
+        left:0;
+       
+        width: 8000px;
+        height: 360px;
+        border-radius: 10px;
+        .slider-item{
+            float: left;
+
+            img{
+                width: 1190px;
+                height: auto;
+            }
+        }
+    }
+    .btn{
+        cursor: pointer;
+        .vc; 
+        width: 30px;
+        height:40px;
+        font-size: 20px;
+        background:rgba(0, 0, 0, 0.6);
+         text-align: center;
+         line-height: 40px;
+        color:#fff;
+        &.btnleft{
+            left:0;
+            border-radius: 0px 5px 5px 0;
+        } 
+        &.btnright{right:0;
+            border-radius: 5px 0px 0px 5px;
+        }   
+        }
+    .indirector{
+        cursor: pointer;
+        .hc;
+        bottom:10px;
+        .idx{
+            &.on{
+                background-color: red;
+        }
+       display: inline-block;
+       margin:0 5px; width: 10px;height: 10px;
+       border-radius: 50%;background-color: #ccc;
+       }
+    }  
+}

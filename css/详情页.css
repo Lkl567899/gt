@@ -1,0 +1,458 @@
+.cl {
+  clear: both;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+section {
+  width: 100%;
+  height: 450px;
+  background-color: white;
+}
+section .inner {
+  width: 1190px;
+  height: 450px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 63px;
+}
+section .inner img {
+  float: left;
+  width: 605px;
+  height: 340px;
+}
+section .inner .introduce {
+  float: left;
+  width: 582px;
+}
+section .inner .introduce h1 {
+  padding-left: 35px;
+  font-size: 24px;
+}
+section .inner .introduce .anpai {
+  padding-left: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+section .inner .introduce .anpai span {
+  font-size: 14px;
+  color: #969292;
+}
+section .inner .introduce .anpai p {
+  font-size: 14px;
+  color: black;
+}
+section .inner .introduce .anpai a {
+  font-size: 14px;
+  margin-left: 10px;
+}
+section .inner .introduce .renxiang {
+  width: 120px;
+  float: left;
+  padding-left: 35px;
+}
+section .inner .introduce .renxiang img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+section .inner .introduce .renxiang .gray {
+  color: gray;
+}
+section .inner .introduce1 {
+  float: left;
+  padding-left: 35px;
+}
+section .inner .introduce1 .mf {
+  font-size: 20px;
+  color: green;
+  padding-top: 75px;
+}
+section .inner .introduce1 .a1 {
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 25px;
+  background-color: #FF6400;
+  color: white;
+}
+section .inner .introduce1 .a2 {
+  display: inline-block;
+  width: 139px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #FF6400;
+  border: 1px solid #FF6400;
+  margin-left: 40px;
+}
+section .inner .introduce1 p {
+  margin-top: 10px;
+  color: gray;
+}
+.content {
+  width: 1190px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+main {
+  width: 820px;
+  margin-top: 30px;
+  border: 1px solid #f5efef;
+  float: left;
+  background-color: white;
+}
+main .Options li {
+  float: left;
+  width: 205px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #F1F1F1;
+  text-align: center;
+}
+main .Options li a {
+  display: inline-block;
+  width: 205px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+}
+main .Options li a:hover {
+  background-color: white;
+}
+main .neirong {
+  float: left;
+  padding-top: 20px;
+  padding-left: 45px;
+  width: 820px;
+}
+main .neirong p {
+  display: inline-block;
+  width: 5px;
+  height: 20px;
+  background-color: #ff6c00;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+  position: relative;
+  bottom: 1px;
+}
+main .neirong span {
+  font-size: 20px;
+}
+main .neirong1 {
+  float: left;
+  padding-top: 20px;
+  padding-left: 45px;
+  width: 820px;
+  padding-bottom: 20px;
+}
+main .neirong1 .a1 {
+  font-size: 12px;
+  color: gray;
+}
+main .neirong1 p {
+  display: inline-block;
+  width: 5px;
+  height: 20px;
+  background-color: #ff6c00;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+  position: relative;
+  bottom: 1px;
+}
+main .neirong1 span {
+  font-size: 20px;
+}
+main .main {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eeebeb;
+}
+main .main ul {
+  margin-top: 130px;
+}
+main .main ul li {
+  width: 750px;
+  height: 80px;
+  border-bottom: 1px solid #eeebeb;
+  padding: 20px 0 10px 20px;
+  margin-left: 35px;
+}
+main .main ul li .number {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 50%;
+  background: #ededee;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #2d2d2e;
+  text-align: center;
+}
+main .main ul li .you {
+  float: right;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding-right: 20px;
+  color: gray;
+}
+main .main ul li .a1 {
+  display: inline-block;
+}
+main .main ul li .a1 a {
+  font-size: 15px;
+}
+main .main ul li .a2 {
+  padding-left: 45px;
+}
+main .main ul li .a2 a {
+  font-size: 15px;
+  color: gray;
+}
+main .main1 {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eeebeb;
+}
+main .main1 img {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+main .main1 .a1 {
+  display: inline-block;
+  margin-left: 2px;
+  font-size: 16px;
+  color: #FF6C00;
+  font-weight: 800;
+}
+main .main1 .a2 {
+  margin-left: 85px;
+  font-size: 14px;
+}
+main .main2 {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eeebeb;
+  position: relative;
+}
+main .main2 img {
+  padding-left: 30px;
+}
+main .main2 .tu1 {
+  width: 780px;
+}
+main .main2 .anniu {
+  float: left;
+  position: absolute;
+  top: 200px;
+  left: 340px;
+}
+main .main3 {
+  border-bottom: 1px solid #eeebeb;
+}
+main .main3 ul {
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+main .main3 ul li {
+  font-size: 15px;
+  margin-top: 20px;
+}
+main .main3 ul li .zi1 {
+  margin-left: 30px;
+}
+main .main3 ul li .zi1 p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main .main3 ul li .zi1 p span {
+  color: gray;
+}
+main .main3 ul li .bt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main .main3 ul li .bt .yuan {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: gray;
+  margin-right: 5px;
+}
+main .main3 ul li .tutu {
+  width: 1000px;
+  height: 150px;
+}
+main .main3 ul li .tutu img {
+  float: left;
+  margin-left: 135px;
+  margin-right: 110px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .main3 ul li .wenben {
+  width: 720px;
+  height: 140px;
+}
+main .main3 ul li .wenben .wenben1 {
+  float: left;
+  width: 450px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+main .main3 ul li .wenben .wenben1 p {
+  color: black;
+  font-weight: 800;
+}
+main .main3 ul li .wenben .wenben1 p span {
+  color: gray;
+  font-weight: 400;
+}
+main .main3 ul li .wenben .wenben2 {
+  float: left;
+  width: 265px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+main .main3 ul li .wenben .wenben2 p {
+  color: black;
+  font-weight: 800;
+}
+main .main3 ul li .wenben .wenben2 p span {
+  color: gray;
+  font-weight: 400;
+}
+main .main3 ul li .wenben .wenben2 a {
+  color: #FF6C00;
+}
+main .main3 ul li .wenben .wenben2 .c1 {
+  color: gray;
+  font-weight: 400;
+}
+main .main3 ul li .zi2 {
+  margin-left: 30px;
+  padding-right: 50px;
+}
+main .main3 ul li .zi2 .c2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 800;
+}
+main .main3 ul li .zi2 .c2 span {
+  color: gray;
+  font-weight: 400;
+}
+main .main3 ul li .zi2 .c3 {
+  color: gray;
+}
+main .main3 ul li .zi3 {
+  margin-left: 30px;
+  padding-right: 50px;
+}
+main .main3 ul li .zi3 p {
+  color: gray;
+  margin-top: 5px;
+}
+main .main4 {
+  border-bottom: 1px solid #eeebeb;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+main .main4 .hh {
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #FF6C00;
+  margin-bottom: 30px;
+}
+main .main4 .hh a {
+  color: #FF6C00;
+  font-size: 14px;
+}
+main .main4 .text {
+  width: 780px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+main .main4 .text img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+}
+main .main4 .text .text1 {
+  float: left;
+}
+main .main4 .text .text1 p {
+  font-size: 14px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+main .main4 .text .text2 {
+  float: right;
+  margin-top: 10px;
+}
+main .main4 .text .text2 span {
+  font-size: 12px;
+  margin-right: 20px;
+}
+aside {
+  width: 280px;
+  height: 200px;
+  float: left;
+  background-color: white;
+  margin-left: 25px;
+  margin-top: 30px;
+  border: 1px solid #f5efef;
+  padding: 20px;
+}
+aside h1 {
+  width: 280px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  color: gray;
+  border-bottom: 1px solid #d3cece;
+}
+aside li {
+  width: 280px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+aside li span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  line-height: 5px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #b1aaaa;
+}
+aside li .z1 {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 14px;
+  color: gray;
+  width: 200px;
+}
+aside li .z1:hover {
+  background-color: #F3F3F4;
+}

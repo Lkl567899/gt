@@ -1,0 +1,356 @@
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hvc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.lh28 {
+  line-height: 28px;
+}
+.c3 {
+  color: #333;
+}
+.c9 {
+  color: #999;
+}
+.cf4 {
+  color: #f40;
+}
+.c1 {
+  color: #9a745f;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.lh2 {
+  line-height: 2;
+}
+.lh16 {
+  line-height: 16px !important;
+}
+.mg20 {
+  margin: 20px 0;
+}
+.underline:after {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: #f40;
+  bottom: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #000;
+  font: 12px/20px -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, HELVETICA;
+  background: #fff;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: none;
+}
+body {
+  background-color: #f1f1f1;
+}
+body a:hover {
+  color: #ff6c00;
+}
+body a {
+  color: #000;
+}
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+.yiny {
+  box-shadow: 0px 0px 10px 3px #ccc;
+}
+.top {
+  height: 80px;
+  background: #fff;
+}
+.top .topwrap {
+  display: flex;
+  justify-content: space-between;
+}
+.top .topwrap .logo {
+  width: 72px;
+  height: 80px;
+  position: relative;
+}
+.top .topwrap .logo img {
+  width: 72px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.top .topwrap .logo h3 {
+  height: 0px;
+  text-indent: -99999em;
+}
+.top .topwrap .logo::after {
+  content: "";
+  height: 25px;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  top: 30px;
+  right: -22px;
+}
+.top .topwrap ul {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 80px;
+  line-height: 80px;
+  margin-left: 15px;
+}
+.top .topwrap ul li {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.top .topwrap ul li:hover {
+  background: #f8f8f8;
+}
+.top .topwrap ul li:hover .a1 {
+  color: #ff6c00;
+}
+.top .topwrap ul li:last-child {
+  position: relative;
+}
+.top .topwrap ul li:last-child .hide {
+  box-shadow: 0px 0px 10px 3px #ccc;
+  position: absolute;
+  left: 0;
+  top: 75px;
+  background: #fff;
+  border-radius: 5px;
+  display: none;
+  z-index: 2;
+  padding: 10px 0px;
+}
+.top .topwrap ul li:last-child .hide dd {
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+}
+.top .topwrap ul li:last-child .hide dd:hover {
+  background: #f9f9f9;
+}
+.top .topwrap ul li:last-child .hide dd:hover a {
+  color: #ff6c00;
+}
+.top .topwrap ul li:last-child:hover .hide {
+  display: block;
+}
+.top .topwrap ul .hide::before {
+  content: "";
+  border: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+}
+.top .topwrap form {
+  line-height: 80px;
+  margin-right: 50px;
+}
+.top .topwrap form input {
+  border: 1px solid #ff6c00;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 40px;
+  font-size: 14px;
+  color: #ff6c00;
+}
+.top .topwrap form input::placeholder {
+  color: #ccc;
+}
+.top .topwrap form svg {
+  position: relative;
+  left: 40px;
+  top: 8px;
+  color: #ddd;
+}
+.top .topwrap .t-right {
+  display: flex;
+  flex-wrap: nowrap;
+  line-height: 80px;
+  cursor: pointer;
+  position: relative;
+}
+.top .topwrap .t-right h3 {
+  width: 120px;
+  height: 100%;
+  margin-right: 10px;
+}
+.top .topwrap .t-right h3:hover {
+  background: #f8f8f8;
+}
+.top .topwrap .t-right h3:hover .hide {
+  display: block;
+}
+.top .topwrap .t-right h3 .hide {
+  box-shadow: 0px 0px 10px 3px #ccc;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  height: 50px;
+  width: 180px;
+  line-height: 50px;
+  text-align: center;
+  top: 70px;
+  left: 20%;
+  z-index: 2;
+  display: none;
+}
+.top .topwrap .t-right h3 .hide p {
+  font-size: 12px;
+}
+.top .topwrap .t-right h3 .hide p span {
+  font-size: 16px;
+  color: red;
+}
+.top .topwrap .t-right h3 .hide::before {
+  content: "";
+  border: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  position: absolute;
+  top: -10px;
+  left: 20%;
+}
+.top .topwrap .t-right h3::before {
+  content: "";
+  border-right: 1px solid #ccc;
+  margin-right: 25px;
+}
+.top .topwrap .t-right h3::after {
+  content: "";
+  border: 5px solid transparent;
+  border-top: 5px solid #aaa;
+  position: absolute;
+  top: 40px;
+  left: 91px;
+}
+.top .topwrap .t-right span a {
+  color: #ff6c00;
+}

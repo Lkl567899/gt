@@ -1,0 +1,61 @@
+@import "hearder.less";
+@import "slider.less";
+@import "footer.less";
+nav{
+    width: 100%;
+    background: #f5f5f5;
+    box-shadow: 0px 3px 10px #ddd;
+    .navwrap{
+        height: 52px;
+        line-height: 52px;
+        ul{
+            display: flex;
+            flex-wrap: nowrap;
+           li{
+               font-weight: bolder;
+               font-size: 18px;
+               padding: 0 18px;
+               letter-spacing: 0px;
+               position: relative;
+               &:hover .a2{
+                color: #ff6c00;
+               }
+               &:hover .hide{
+                   display: block
+               }
+               .hide{
+                   .yiny;
+                   position: absolute;
+                   background: #fff;
+                   padding: 5px 0px;
+                   width: 120px;
+                   left: 0;
+                   border-radius: 5px;
+                   z-index: 2;
+                   display: none;
+                   dd{
+                       text-align: center;
+                       font-size: 14px;
+                       font-weight: 400;
+                       cursor: pointer;
+                      &:hover{
+                          background: #f5f5f5;
+                      }
+                       &:hover a{
+                           color: #000;
+                       }
+                       
+                   }
+               }
+               .hide::before{
+                content: "";
+                border: 5px solid transparent;
+                border-bottom: 5px solid #fff;
+                position: absolute;
+                top: -10px;
+                left: 50%;
+            }
+           }
+        }
+    }
+}

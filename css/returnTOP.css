@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+
+
+html,
+body,
+form,
+input,
+select,
+textarea,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+form,
+img,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+blockquote,
+fieldset,
+div,
+strong,
+label,
+em {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+    list-style: none;
+}
+
+
+table,
+td,
+.asid_share img {
+    border: 0;
+    margin-left: 5px;
+}
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.asid_share a {
+    color: #222;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.asid_share a:hover {
+    /* color: #c31900;
+    text-decoration: none; */
+}
+
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.pb6 {
+    font-size: 16px;
+    color: #ff6c00;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.asid_sha_layer .layerp1 {
+    font-size: 16px;
+    color: #3c3c3e;
+}
+
+.asid_sha_layer .layerp2 {
+    font-size: 12px;
+    color: #9d9d9e;
+}
+
+/*asid_share*/
+.asid_share {
+    position: fixed;
+    width: 40px;
+    bottom: 15%;
+    right: 0;
+    z-index: 890;
+    margin-right: 20px;
+}
+
+*html #asid_share {
+    position: absolute;
+
+}
+
+.asid_share .asid_share_box {
+    width: 100%;
+    margin-bottom: 3px;
+    background: #fff;
+    text-align: center;
+}
+
+.asid_share .asid_share_box a {
+    display: block;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.asid_share .asid_share_box a:hover {
+    background: black;
+    /* text-decoration: none; */
+}
+
+.asid_share .asid_share_box a:hover .asid_title,
+.asid_share .asid_share_box .asid_title {
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    padding-left: 6px;
+    line-height: 18px;
+    width: 30px;
+    margin-top: -2px;
+}
+
+.asid_share .red_bag {
+    /* background: #e12500;
+    text-decoration: none; */
+}
+
+.asid_share .asid_sha_layer {
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    right: 47px;
+    bottom: -44px;
+}
+
+
+.sweep_img {
+    padding: 10px;
+}
+
+.asid_share_box .asid_help_list li {
+    line-height: 26px;
+    height: 26px;
+    /* background: url(../images/dian.png) no-repeat 6px 12px; */
+}
+
+.asid_share_box .asid_help_list li a {
+    line-height: 26px;
+    height: 26px;
+    padding: 0 0 0 14px;
+    text-align: left;
+}
+
+.asid_help_list li a:hover {
+    color: #fff;
+}
+
+
+.asid_share_box .asid_help_list1 {
+    height: 70px;
+}
+
+.asid_share_box .asid_help_list h3 {
+    font-size: 16px;
+    color: #ff6c00;
+    font-weight: bold;
+}
+
+.asid_share_box .asid_help_list h4 {
+    font-size: 16px;
+    color: #3c3c3e;
+}
+
+.asid_share_box .asid_help_list h5 {
+    font-size: 12px;
+    color: #9d9d9e;
+}
+
+.asid_share_box .asid_help_list1 li {
+    line-height: 26px;
+    height: 26px;
+    /* background: url(../images/dian.png) no-repeat 6px 12px; */
+}
+
+.asid_share_box .asid_help_list1 li a {
+    line-height: 26px;
+    height: 26px;
+    padding: 0 0 0 14px;
+    text-align: left;
+}
+
+.asid_help_list1 li a:hover {
+    color: #fff;
+}
+
+
+.asid_share_triangle {
+    width: 12px;
+    height: 40px;
+    position: absolute;
+    right: 45px;
+    bottom: -12px;
+    z-index: 100;
+}
+
+.border_sj,
+.con_sj {
+    display: block;
+    width: 18px;
+    height: 28px;
+    font-size: 18px;
+    overflow: hidden;
+    font-family: SimSun;
+}
+
+.border_sj {
+    color: #ccc;
+    font-style: normal;
+}
+
+.con_sj {
+    color: white;
+    margin: -14px -2px 0 0;
+    margin: -28px 0 0 -2px;
+}
+
+.span_right {
+    display: inline-block;
+    font-size: 0.8em;
+    /*大小*/
+    padding: 0.4em;
+    width: 14px;
+    height: 14px;
+    border-top: 3px solid #b9b9b9;
+    /*上面的线条*/
+    border-right: 3px solid #b9b9b9;
+    /*右边线条*/
+    transform: rotate(45deg);
+    /*主要是这个旋转45度*/
+}
+
+.XX {
+    position: relative;
+}
+
+.xxxx {
+    width: 77px;
+    height: 81px;
+    position: absolute;
+    top: -82px;
+
+    font-size: 14px;
+    left: -30px;
+    color: #555;
+    background: url(../images/1.webp) center;
+    background-size: contain;
+}
+
+.xxx {
+    position: absolute;
+    top: -26px;
+    font-size: 14px;
+    z-index: 999;
+    left: -16px;
+    color: #555;
+
+}
+.Options ul  li{
+    background-color: #f8f8f8;
+}
